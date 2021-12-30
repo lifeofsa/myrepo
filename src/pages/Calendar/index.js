@@ -268,7 +268,7 @@ const Calender = props => {
                           ))}
                       </div>
 
-                      <div className="mt-5 d-none d-xl-block">
+                      <div >
                         <h5 className="text-center">How It Works ?</h5>
 
                         <ul className="ps-3">

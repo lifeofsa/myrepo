@@ -1,6 +1,6 @@
 import React from "react"
 import { Row, Col, Container } from "reactstrap"
-import MetaTags from 'react-meta-tags';
+import MetaTags from "react-meta-tags"
 
 //Import Breadcrumb
 import Breadcrumbs from "../../components/Common/Breadcrumb"
@@ -10,13 +10,12 @@ const EmailTemplateBilling = props => {
     <React.Fragment>
       <div className="page-content">
         <MetaTags>
-          <title>Billing Email | Skote - React Admin & Dashboard Template</title>
+          <title>
+            Billing Email | Skote - React Admin & Dashboard Template
+          </title>
         </MetaTags>
         <Container fluid>
-          <Breadcrumbs
-            title="Email Template"
-            breadcrumbItem="Billing Email"
-          />
+          <Breadcrumbs title="Email Template" breadcrumbItem="Billing Email" />
 
           <Row className="email-template">
             <Col md="12">
@@ -43,8 +42,7 @@ const EmailTemplateBilling = props => {
                   >
                     <td
                       style={{
-                        fontFamily:
-                          "Helvetica Neue,Helvetica,Arial,sans-serif",
+                        fontFamily: "Helvetica Neue,Helvetica,Arial,sans-serif",
                         boxSizing: "border-box",
                         fontSize: "14px",
                         verticalAlign: "top",
@@ -56,8 +54,7 @@ const EmailTemplateBilling = props => {
                       className="container"
                       width="600"
                       style={{
-                        fontFamily:
-                          "Helvetica Neue,Helvetica,Arial,sans-serif",
+                        fontFamily: "Helvetica Neue,Helvetica,Arial,sans-serif",
                         boxSizing: "border-box",
                         fontSize: "14px",
                         verticalAlign: "top",
@@ -176,10 +173,10 @@ const EmailTemplateBilling = props => {
                                           Thanks for using{" "}
                                           <b style={{ fontWeight: "600" }}>
                                             {" "}
-                                              SKOTE
-                                            </b>
-                                            .
-                                          </h2>
+                                            SKOTE
+                                          </b>
+                                          .
+                                        </h2>
                                       </td>
                                     </tr>
                                     <tr
@@ -250,8 +247,8 @@ const EmailTemplateBilling = props => {
                                                     margin: "0",
                                                   }}
                                                 />
-                                                  Invoice #6521
-                                                  <br
+                                                Invoice #6521
+                                                <br
                                                   style={{
                                                     fontFamily:
                                                       "Helvetica Neue,Helvetica,Arial,sans-serif",
@@ -260,8 +257,8 @@ const EmailTemplateBilling = props => {
                                                     margin: "0",
                                                   }}
                                                 />
-                                                  August 01 2017
-                                                </td>
+                                                August 01 2017
+                                              </td>
                                             </tr>
                                             <tr
                                               style={{
@@ -302,8 +299,7 @@ const EmailTemplateBilling = props => {
                                                       style={{
                                                         fontFamily:
                                                           "Helvetica Neue,Helvetica,Arial,sans-serif",
-                                                        boxSizing:
-                                                          "border-box",
+                                                        boxSizing: "border-box",
                                                         fontSize: "14px",
                                                         margin: "0",
                                                       }}
@@ -316,10 +312,8 @@ const EmailTemplateBilling = props => {
                                                           boxSizing:
                                                             "border-box",
                                                           fontSize: "14px",
-                                                          verticalAlign:
-                                                            "top",
-                                                          borderTopWidth:
-                                                            "1px",
+                                                          verticalAlign: "top",
+                                                          borderTopWidth: "1px",
                                                           borderTopColor:
                                                             "#eee",
                                                           borderTopStyle:
@@ -330,7 +324,7 @@ const EmailTemplateBilling = props => {
                                                         valign="top"
                                                       >
                                                         BS-200 (1 Pc)
-                                                        </td>
+                                                      </td>
                                                       <td
                                                         className="email-billing-list alignright"
                                                         style={{
@@ -339,11 +333,9 @@ const EmailTemplateBilling = props => {
                                                           boxSizing:
                                                             "border-box",
                                                           fontSize: "14px",
-                                                          verticalAlign:
-                                                            "top",
+                                                          verticalAlign: "top",
                                                           textAlign: "right",
-                                                          borderTopWidth:
-                                                            "1px",
+                                                          borderTopWidth: "1px",
                                                           borderTopColor:
                                                             "#eee",
                                                           borderTopStyle:
@@ -355,14 +347,13 @@ const EmailTemplateBilling = props => {
                                                         valign="top"
                                                       >
                                                         $10.99
-                                                        </td>
+                                                      </td>
                                                     </tr>
                                                     <tr
                                                       style={{
                                                         fontFamily:
                                                           "Helvetica Neue,Helvetica,Arial,sans-serif",
-                                                        boxSizing:
-                                                          "border-box",
+                                                        boxSizing: "border-box",
                                                         fontSize: "14px",
                                                         margin: "0",
                                                       }}
@@ -375,10 +366,8 @@ const EmailTemplateBilling = props => {
                                                           boxSizing:
                                                             "border-box",
                                                           fontSize: "14px",
-                                                          verticalAlign:
-                                                            "top",
-                                                          borderTopWidth:
-                                                            "1px",
+                                                          verticalAlign: "top",
+                                                          borderTopWidth: "1px",
                                                           borderTopColor:
                                                             "#eee",
                                                           borderTopStyle:
@@ -389,7 +378,7 @@ const EmailTemplateBilling = props => {
                                                         valign="top"
                                                       >
                                                         BS-400 (2 Pcs)
-                                                        </td>
+                                                      </td>
                                                       <td
                                                         className="email-billing-list alignright"
                                                         style={{
@@ -398,11 +387,9 @@ const EmailTemplateBilling = props => {
                                                           boxSizing:
                                                             "border-box",
                                                           fontSize: "14px",
-                                                          verticalAlign:
-                                                            "top",
+                                                          verticalAlign: "top",
                                                           textAlign: "right",
-                                                          borderTopWidth:
-                                                            "1px",
+                                                          borderTopWidth: "1px",
                                                           borderTopColor:
                                                             "#eee",
                                                           borderTopStyle:
@@ -414,14 +401,13 @@ const EmailTemplateBilling = props => {
                                                         valign="top"
                                                       >
                                                         $60.00
-                                                        </td>
+                                                      </td>
                                                     </tr>
                                                     <tr
                                                       style={{
                                                         fontFamily:
                                                           "Helvetica Neue,Helvetica,Arial,sans-serif",
-                                                        boxSizing:
-                                                          "border-box",
+                                                        boxSizing: "border-box",
                                                         fontSize: "14px",
                                                         margin: "0",
                                                       }}
@@ -434,10 +420,8 @@ const EmailTemplateBilling = props => {
                                                           boxSizing:
                                                             "border-box",
                                                           fontSize: "14px",
-                                                          verticalAlign:
-                                                            "top",
-                                                          borderTopWidth:
-                                                            "1px",
+                                                          verticalAlign: "top",
+                                                          borderTopWidth: "1px",
                                                           borderTopColor:
                                                             "#eee",
                                                           borderTopStyle:
@@ -448,7 +432,7 @@ const EmailTemplateBilling = props => {
                                                         valign="top"
                                                       >
                                                         BS-1000 (1 Pc)
-                                                        </td>
+                                                      </td>
                                                       <td
                                                         className="alignright"
                                                         style={{
@@ -457,11 +441,9 @@ const EmailTemplateBilling = props => {
                                                           boxSizing:
                                                             "border-box",
                                                           fontSize: "14px",
-                                                          verticalAlign:
-                                                            "top",
+                                                          verticalAlign: "top",
                                                           textAlign: "right",
-                                                          borderTopWidth:
-                                                            "1px",
+                                                          borderTopWidth: "1px",
                                                           borderTopColor:
                                                             "#eee",
                                                           borderTopStyle:
@@ -473,15 +455,14 @@ const EmailTemplateBilling = props => {
                                                         valign="top"
                                                       >
                                                         $600.00
-                                                        </td>
+                                                      </td>
                                                     </tr>
                                                     <tr
                                                       className="total"
                                                       style={{
                                                         fontFamily:
                                                           "Helvetica Neue,Helvetica,Arial,sans-serif",
-                                                        boxSizing:
-                                                          "border-box",
+                                                        boxSizing: "border-box",
                                                         fontSize: "14px",
                                                         margin: "0",
                                                       }}
@@ -495,11 +476,9 @@ const EmailTemplateBilling = props => {
                                                           boxSizing:
                                                             "border-box",
                                                           fontSize: "14px",
-                                                          verticalAlign:
-                                                            "top",
+                                                          verticalAlign: "top",
                                                           textAlign: "right",
-                                                          borderTopWidth:
-                                                            "2px",
+                                                          borderTopWidth: "2px",
                                                           borderTopColor:
                                                             "#333",
                                                           borderTopStyle:
@@ -518,7 +497,7 @@ const EmailTemplateBilling = props => {
                                                         valign="top"
                                                       >
                                                         Total
-                                                        </td>
+                                                      </td>
                                                       <td
                                                         className="alignright"
                                                         style={{
@@ -527,11 +506,9 @@ const EmailTemplateBilling = props => {
                                                           boxSizing:
                                                             "border-box",
                                                           fontSize: "14px",
-                                                          verticalAlign:
-                                                            "top",
+                                                          verticalAlign: "top",
                                                           textAlign: "right",
-                                                          borderTopWidth:
-                                                            "2px",
+                                                          borderTopWidth: "2px",
                                                           borderTopColor:
                                                             "#333",
                                                           borderTopStyle:
@@ -550,7 +527,7 @@ const EmailTemplateBilling = props => {
                                                         valign="top"
                                                       >
                                                         $670.99
-                                                        </td>
+                                                      </td>
                                                     </tr>
                                                   </tbody>
                                                 </table>
@@ -584,9 +561,9 @@ const EmailTemplateBilling = props => {
                                         align="center"
                                         valign="top"
                                       >
-                                        Skote Inc. 2896 Howell Rd,
-                                        Russellville, AR, 72823
-                                        </td>
+                                        Skote Inc. 2896 Howell Rd, Russellville,
+                                        AR, 72823
+                                      </td>
                                     </tr>
 
                                     <tr
@@ -613,7 +590,7 @@ const EmailTemplateBilling = props => {
                                         valign="top"
                                       >
                                         © {new Date().getFullYear()} Skote
-                                        </td>
+                                      </td>
                                     </tr>
                                   </tbody>
                                 </table>
@@ -634,4 +611,4 @@ const EmailTemplateBilling = props => {
   )
 }
 
-export default EmailTemplateBilling;
+export default EmailTemplateBilling

@@ -80,10 +80,10 @@ const SidebarContent = props => {
           }
         }
       }
-      scrollElement(item);
+      scrollElement(item)
       return false
     }
-    scrollElement(item);
+    scrollElement(item)
     return false
   }
 
@@ -96,9 +96,7 @@ const SidebarContent = props => {
             <li>
               <Link to="/#" className="">
                 <i className="bx bx-home-circle"></i>
-                <span className="badge rounded-pill bg-info float-end">
-                  04
-                </span>
+                <span className="badge rounded-pill bg-info float-end">04</span>
                 <span>{props.t("Dashboards")}</span>
               </Link>
               <ul className="sub-menu" aria-expanded="false">
@@ -529,9 +527,7 @@ const SidebarContent = props => {
                   <Link to="/ui-drawer">{props.t("Drawer")}</Link>
                 </li>
                 <li>
-                  <Link to="/ui-breadcrumb">
-                    {props.t("Breadcrumb")}
-                  </Link>
+                  <Link to="/ui-breadcrumb">{props.t("Breadcrumb")}</Link>
                 </li>
               </ul>
             </li>
@@ -604,7 +600,9 @@ const SidebarContent = props => {
                   <Link to="/tables-editable">{props.t("Editable Table")}</Link>
                 </li>
                 <li>
-                  <Link to="/tables-dragndrop">{props.t("Drag & Drop Table")}</Link>
+                  <Link to="/tables-dragndrop">
+                    {props.t("Drag & Drop Table")}
+                  </Link>
                 </li>
               </ul>
             </li>
@@ -709,7 +707,6 @@ const SidebarContent = props => {
             </li>
           </ul>
         </div>
-     
       </SimpleBar>
     </React.Fragment>
   )

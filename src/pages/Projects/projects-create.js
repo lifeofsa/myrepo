@@ -1,8 +1,20 @@
 import React, { useState } from "react"
-import MetaTags from 'react-meta-tags';
+import MetaTags from "react-meta-tags"
 import { Link } from "react-router-dom"
 import Dropzone from "react-dropzone"
-import { Button, Card, CardBody, CardTitle, Col, Container, Form, FormGroup, Input, Label, Row } from "reactstrap"
+import {
+  Button,
+  Card,
+  CardBody,
+  CardTitle,
+  Col,
+  Container,
+  Form,
+  FormGroup,
+  Input,
+  Label,
+  Row,
+} from "reactstrap"
 
 //Import Date Picker
 import DatePicker from "react-datepicker"
@@ -28,7 +40,7 @@ const ProjectsCreate = () => {
     files.map(file =>
       Object.assign(file, {
         preview: URL.createObjectURL(file),
-        formattedSize: formatBytes(file.size)
+        formattedSize: formatBytes(file.size),
       })
     )
 
@@ -49,7 +61,9 @@ const ProjectsCreate = () => {
     <React.Fragment>
       <div className="page-content">
         <MetaTags>
-          <title>Create New Projects | Skote - React Admin & Dashboard Template</title>
+          <title>
+            Create New Projects | Skote - React Admin & Dashboard Template
+          </title>
         </MetaTags>
         <Container fluid>
           {/* Render Breadcrumbs */}
